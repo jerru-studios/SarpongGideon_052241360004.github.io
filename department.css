@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+   /* margin: 0;*/
+    padding: 0;
+    background-image: url('departmentback.jpg');
+    background-size:cover;
+    background-image-position: fixed ;
+}
+
+/* Hero Section Styles */
+header.hero {
+    background-color: #345995;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Department Overview Styles */
+.department-overview {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+}
+
+/* Timetable Link Styles */
+.timetable-link, .payment-link, .contact {
+   background-color: #fbfdfd;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #345995;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2c4a7f;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #345995;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

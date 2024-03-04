@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.timetable {
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+
+.download {
+    background-color: #345995;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #345995;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #fbfdfd;
+}
+
+
+footer {
+    background-color: #345995;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

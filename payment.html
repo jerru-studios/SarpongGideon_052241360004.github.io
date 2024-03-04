@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="icon" type="image/x-icon" href="kstu1.png">
+    <title>Student Payment</title>
+</head>
+<body>
+
+    
+    <section class="payment-form">
+        <h1>Student Payment</h1>
+        <form action="/process-payment" method="post">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount" placeholder="Enter amount" required>
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+
+            <br>
+            <button type="submit" class="button">Make Payment</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 jerru studios</p>
+            <p>index number: 052241360004</p>
+        </div>
+    </footer>
+</body>
+</html>
